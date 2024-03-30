@@ -1,0 +1,12 @@
+.category-container {
+  height: 3rem;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-evenly;
+}
+.category-items {
+  border: none;
+  background-color: #232f3e;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

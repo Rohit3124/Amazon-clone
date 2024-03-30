@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+  color: white;
+  height: 4rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 15px;
+}
+.logo {
+  height: 100%;
+  width: 7rem;
+  background-image: url(/src/assets/amazonLogo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0px 15px;
+}
+.address {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.pin-code {
+  font-size: 0.7rem;
+  color: #ccc;
+}
+.search-container {
+  height: 2.5rem;
+  width: 50%;
+  display: flex;
+  border-radius: 5px;
+}
+.search-categories {
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6e6e6;
+  color: #555555;
+  border-radius: 5px 0 0 5px;
+}
+.search {
+  flex-grow: 1;
+  border: none;
+}
+.search:focus-visible {
+  outline-color: orange;
+}
+.search-icon {
+  color: black;
+  font-size: 1.3rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #febd69;
+  border-radius: 0 5px 5px 0;
+}
+.location,
+.account-container,
+.orders-container {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.signIn,
+.returns {
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+.cart-icon {
+  font-size: 1.5rem;
+}
+.navItem {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
