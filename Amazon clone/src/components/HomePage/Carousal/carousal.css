@@ -1,0 +1,13 @@
+.banner {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.banner-img {
+  width: 100%;
+  background-size: contain;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

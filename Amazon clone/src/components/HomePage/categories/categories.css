@@ -1,0 +1,24 @@
+.category-container {
+  height: 2.5rem;
+  width: 100%;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-evenly;
+}
+.category-items {
+  background-color: #232f3e;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #232f3e;
+  padding: 0 1%;
+}
+.category-items:hover {
+  border: 1px solid white;
+}
+.three-line-icon {
+  font-size: 1.5rem;
+}
+.all {
+  display: flex;
+  align-items: center;
+}
